@@ -2,11 +2,11 @@ export default function Nav() {
   return (
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">
+        <a class="navbar-brand text-light" href="/">
           Borys MARESTER
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -16,6 +16,7 @@ export default function Nav() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="d-flex justify-content-end">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -48,6 +49,7 @@ export default function Nav() {
               </a>
             </li>
           </ul>
+        </div>
         </div>
       </div>
     </nav>

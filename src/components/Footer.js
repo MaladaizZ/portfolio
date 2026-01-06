@@ -1,3 +1,5 @@
+
+
 export default function Footer() {
     return(
 <footer class="footer" >
@@ -105,7 +107,7 @@ export default function Footer() {
 
         <div class="col-xs-12 col-md-4 order-2 order-md-1">
           <div class="footer-copyright-wrapper text-center text-light">
-            &copy; 2025. All Rights Reserved. 
+            &copy; 2026. All Rights Reserved. 
           </div>
           <div class="credits text-light text-center mt-2 fs-8">
             Built by Borys with <span class="text-danger">&#9829;</span>

@@ -1,5 +1,5 @@
 
-import Footer from "../components/Footer"
+import Modale from "../components/modale"
 
 
 
@@ -11,8 +11,9 @@ export default function Acceuil() {
                 <img src="hero-bg.jpg" class="card-img" alt="hero image"></img>
                 <div class="d-flex justify-content-center align-items-center card-img-overlay">
                     <div >
-                        <h1 class="card-title text-center">Bonjour, je suis Borys MARESTER</h1>
-                        <h2 class="card-text text-center">Développeur full stack.</h2>
+                        <h1 class="card-title text-center"><strong>Bonjour, je suis Borys MARESTER</strong></h1>
+                        <h2 class="card-text text-center"><strong>Développeur full stack.</strong></h2>
+                        <Modale/>
                     </div>
 
                 </div>
